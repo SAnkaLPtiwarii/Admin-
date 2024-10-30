@@ -1,6 +1,6 @@
 // src/components/dashboard/Overview.jsx
 import React, { useEffect, useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
 import { getUserStats } from '../../services/api';
 import UserGrowthChart from '../charts/UserGrowthChart';
 import { Users, UserPlus, UserCheck, TrendingUp, Activity, ArrowUp, ArrowDown, MoreHorizontal } from 'lucide-react';
