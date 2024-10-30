@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { getUsers, deleteUser } from '../../services/api';
 import { Button } from '../ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
 import { Search, Plus, Edit2, Trash2, MoreVertical } from 'lucide-react';
 
 const UserManagement = () => {
