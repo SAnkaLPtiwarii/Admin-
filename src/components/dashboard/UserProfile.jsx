@@ -1,7 +1,7 @@
 // src/components/dashboard/UserProfile.jsx (continued)
 import React from 'react';
 import { useAuth } from '../../hooks/useAuth';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '../ui/Card';
 import { Button } from '../ui/button';
 import { User, Mail, Shield, Calendar, MapPin, Phone, Edit2, Clock, Bell, Lock, Settings } from 'lucide-react';
 
