@@ -76,3 +76,40 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Add to your index.css or create a new style block in your component */
+.highlight {
+  animation: highlightAnimation 2s ease-in-out;
+}
+
+@keyframes highlightAnimation {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.5);
+  }
+
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.5);
+  }
+}
+
+/* Add unique IDs to your card components */
+
+/* <motion.div
+  key={index}
+  id={`stat-${stat.title.toLowerCase().replace(/\s+/g, '-')}`}
+  
+>
+
+
+<motion.div
+  key={metric}
+  id={`metric-${metric.toLowerCase().replace(/\s+/g, '-')}`}
+  
+> */
