@@ -2,8 +2,8 @@ import axios from 'axios';
 
 // Mock data
 const mockUsers = [
-    { id: 1, name: 'John Doe', email: 'john@example.com', role: 'admin', status: 'active' },
-    { id: 2, name: 'Jane Smith', email: 'jane@example.com', role: 'user', status: 'active' },
+    { id: 1, name: 'sankalp', email: 'sankalp@example.com', role: 'admin', status: 'active' },
+    { id: 2, name: 'Jane', email: 'jane@example.com', role: 'user', status: 'active' },
 ];
 
 export const getUserStats = async () => {
